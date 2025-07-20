@@ -172,8 +172,8 @@ Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 10)
 local title = Instance.new("TextLabel", frame)
 title.Size = UDim2.new(1, 0, 0, 30)
 title.BackgroundTransparency = 1
-title.Text = "🐾 Pet Randomizer ✨"
-title.Font = Enum.Font.FredokaOne
+title.Text = "🎲 Pet Randomizer ✨"
+title.Font = Enum.Font.Cartoon
 title.TextSize = 22
 title.TextColor3 = Color3.fromRGB(255, 220, 0) 
 
@@ -204,7 +204,7 @@ randomizeBtn.Position = UDim2.new(0, 10, 0, 40)
 randomizeBtn.BackgroundColor3 = Color3.fromRGB(255, 140, 0) 
 randomizeBtn.Text = "🎲 Randomize Pets"
 randomizeBtn.TextSize = 20
-randomizeBtn.Font = Enum.Font.FredokaOne
+randomizeBtn.Font = Enum.Font.Cartoon
 randomizeBtn.TextColor3 = Color3.new(1, 1, 1)
 randomizeBtn.MouseButton1Click:Connect(function()
     countdownAndRandomize(randomizeBtn)
@@ -217,7 +217,7 @@ toggleBtn.Position = UDim2.new(0, 10, 0, 100)
 toggleBtn.BackgroundColor3 = Color3.fromRGB(0, 120, 255)
 toggleBtn.Text = "👁️ ESP: ON"
 toggleBtn.TextSize = 18
-toggleBtn.Font = Enum.Font.FredokaOne
+toggleBtn.Font = Enum.Font.Cartoon
 toggleBtn.TextColor3 = Color3.new(1, 1, 1)
 toggleBtn.MouseButton1Click:Connect(function()
     espEnabled = not espEnabled
@@ -243,7 +243,7 @@ autoBtn.Position = UDim2.new(0, 10, 0, 145)
 autoBtn.BackgroundColor3 = Color3.fromRGB(0, 200, 100)
 autoBtn.Text = "🔁 Auto Randomize: OFF"
 autoBtn.TextSize = 16
-autoBtn.Font = Enum.Font.FredokaOne
+autoBtn.Font = Enum.Font.Cartoon
 autoBtn.TextColor3 = Color3.new(1, 1, 1)
 
 local autoRunning = false
@@ -275,9 +275,9 @@ local zenEggLabel = Instance.new("TextLabel", frame)
 zenEggLabel.Size = UDim2.new(1, -20, 0, 30)
 zenEggLabel.Position = UDim2.new(0, 10, 1, -35)
 zenEggLabel.BackgroundColor3 = Color3.fromRGB(180, 130, 255) -- Light purple
-zenEggLabel.Text = "🧘‍♂️ ADDED NEW ZEN EGG"
+zenEggLabel.Text = "🧘‍♂️ ADDED NEW ZEN EGG!!"
 zenEggLabel.TextSize = 16
-zenEggLabel.Font = Enum.Font.FredokaOne
+zenEggLabel.Font = Enum.Font.Cartoon
 zenEggLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 -- 👤 Credit
@@ -286,6 +286,6 @@ credit.Size = UDim2.new(1, 0, 0, 20)
 credit.Position = UDim2.new(0, 0, 0, 22)
 credit.BackgroundTransparency = 1
 credit.Text = "Made by - obblox"
-credit.Font = Enum.Font.FredokaOne
+credit.Font = Enum.Font.Cartoon
 credit.TextSize = 14
-credit.TextColor3 = Color3.fromRGB(200, 200, 200)
+credit.TextColor3 = Color3.fromRGB(100, 200, 255)
