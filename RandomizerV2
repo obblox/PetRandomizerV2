@@ -24,6 +24,7 @@ local petTable = {
     ["Dinosaur Egg"] = { "Raptor", "Triceratops", "Stegosaurus" },
     ["Primal Egg"] = { "Parasaurolophus", "Iguanodon", "Pachycephalosaurus" },
     ["Zen Egg"] = { "Shiba Inu", "Nihonzaru", "Tanuki" },
+    ["Gourmet Egg"] = { "Bagel Bunny", "Pancake Mole", "Sushi Bear", },
 }
 
 local espEnabled = true
@@ -275,7 +276,7 @@ local zenEggLabel = Instance.new("TextLabel", frame)
 zenEggLabel.Size = UDim2.new(1, -20, 0, 30)
 zenEggLabel.Position = UDim2.new(0, 10, 1, -35)
 zenEggLabel.BackgroundColor3 = Color3.fromRGB(180, 130, 255) -- Light purple
-zenEggLabel.Text = "🧘‍♂️ ADDED NEW ZEN EGG!!"
+zenEggLabel.Text = "🍔 ADDED NEW GOURMET EGG!!"
 zenEggLabel.TextSize = 16
 zenEggLabel.Font = Enum.Font.Cartoon
 zenEggLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
